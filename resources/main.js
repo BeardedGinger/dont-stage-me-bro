@@ -8,13 +8,13 @@ jQuery(document).ready(function($){
 			trigger          = '#lc-stage-status-trigger';
 
 	$(noticeBox).addClass('notice');
-	
-	if ( 'stage-me' != stageMe ) {
-		$(noticeBox).addClass('notice-error');
-		$(noticeBoxContent).text( dontStageNotice );
-	} else {
+
+	if ( 'dont-stage-me' != stageMe ) {
 		$(noticeBox).addClass('notice-success');
 		$(noticeBoxContent).text( stageNotice );
+	} else {
+		$(noticeBox).addClass('notice-success');
+		$(noticeBoxContent).text( dontStageNotice );
 	}
 
 	$(trigger).click( function() {

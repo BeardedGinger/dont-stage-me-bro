@@ -1,5 +1,5 @@
 === Don't Stage Me Bro! ===
-Contributors: joshlimecuda
+Contributors: joshlimecuda, imeson
 Donate link: https://fewerthanthree.com
 Tags: staging, hosting, notice, team development
 Requires at least: 4.2
@@ -12,9 +12,11 @@ Let your team (or future self) know whether or not it's cool to overwrite an exi
 
 == Description ==
 
-Don’t Stage Me Bro - a ‘shockingly’ useful plugin that makes sure you or your team never accidentally overwrite a staging site on WP Engine again. Gives you an easy-to-use toggle button to show whether or not your staging site is ok to overwrite. 
+Don’t Stage Me Bro - a ‘shockingly’ useful plugin that makes sure you or your team never accidentally overwrite a staging site on WP Engine again. Gives you an easy-to-use toggle button to show whether or not your staging site is ok to overwrite.
 
-Actively being developed and improved. Feel free to submit issues and fork at: https://github.com/BeardedGinger/dont-stage-me-bro
+Currently works with the staging tool in [WP Engine](https://wpengine.com)
+
+Actively being developed and improved. Feel free to contribute on [Github](https://github.com/BeardedGinger/dont-stage-me-bro)
 
 == Installation ==
 
@@ -34,7 +36,10 @@ The staging status notice
 == Changelog ==
 
 = 0.1.1 =
-* Update wording in
+* Unsaved status defaults to "Stage Me"
+* Updated wording in readme.txt file
+* Added imeson as a contributor
+* Included screenshot image
 
 = 0.1.0 =
 * Initial Plugin Release

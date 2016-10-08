@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:     Don't Stage Me Bro!
- * Plugin URI:      http://fewerthanthree.com
+ * Plugin URI:      https://fewerthanthree.com
  * Description:     Add a notice to the WP Engine staging site tool to let others know whether or not it's cool to overwrite an existing staging site
- * Version:         0.1.0
+ * Version:         0.1.1
  * Author:          Josh Mallard
- * Author URI:      http://fewerthanthree.com
+ * Author URI:      https://fewerthanthree.com
  * License:         GPL-2.0+
  * Text Domain:     lc-stage-me
  *
