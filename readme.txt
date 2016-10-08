@@ -12,9 +12,9 @@ Let your team (or future self) know whether or not it's cool to overwrite an exi
 
 == Description ==
 
-Works with the staging feature on WP Engine and displays a controllable notice letting others know whether or not it is okay to overwrite the existing staging site.
+Don’t Stage Me Bro - a ‘shockingly’ useful plugin that makes sure you or your team never accidentally overwrite a staging site on WP Engine again. Gives you an easy-to-use toggle button to show whether or not your staging site is ok to overwrite. 
 
-Do you use a different hosting provider that has a similar staging site feature? Contact us and we'd be happy to look into integrating it here.
+Actively being developed and improved. Feel free to submit issues and fork at: https://github.com/BeardedGinger/dont-stage-me-bro
 
 == Installation ==
 
@@ -27,14 +27,14 @@ Do you use a different hosting provider that has a similar staging site feature?
 
 == Frequently Asked Questions ==
 
-= Why can't authors set their own ad codes? =
-Setting of the ad codes is limited to users that have the ability to save unfiltered html. This is available for the Editor role and up. This is a security measure since ads include script tags and prevents malicious code from being saved and then presented on the front-end of your site
-
 == Screenshots ==
 
 The staging status notice
 
 == Changelog ==
+
+= 0.1.1 =
+* Update wording in
 
 = 0.1.0 =
 * Initial Plugin Release

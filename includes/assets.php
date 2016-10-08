@@ -32,7 +32,7 @@ class Assets {
 
 		if ( lc_is_staging_screen() ) {
 
-			wp_enqueue_script( 'dont-stage-me-bro', LC_DONT_STAGE_ME_BASE . 'assets/main.js' );
+			wp_enqueue_script( 'dont-stage-me-bro', LC_DONT_STAGE_ME_BASE . 'resources/main.js' );
 			wp_localize_script( 'dont-stage-me-bro', 'LC_STAGE_ME', array(
 				'currentState' => get_option( 'lc_stage_me_status' ),
 				'stage'        => \LC_Dont_Stage_Me\Notice\Notice::instance()->stage_me_notice(),
